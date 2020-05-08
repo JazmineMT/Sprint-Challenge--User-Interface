@@ -66,6 +66,38 @@ p {
     line-height: 1.4;
 }
 
+
+header nav{
+    display:flex;
+    padding: 2%;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    
+}
+
+ #logo img{
+     display:flex;
+     justify-content: center;
+     align-content: center;
+ }
+
+ 
+
+#header-container {
+ display: flex;
+ justify-content: center;
+}
+
+ .link a{
+  color: black;
+  display: inline-flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  
+  
+
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -111,6 +143,45 @@ p {
     align-items: center;
     justify-content: center;
 }
+#one{
+    background-color:teal;
+}
+#two{
+    background-color: gold;
+}
+
+#three{
+    background-color: cadetblue;
+}
+
+#four{
+    background-color: coral;
+}
+
+#five{
+    background-color: crimson;
+}
+
+#six{
+    background-color: forestgreen;
+}
+#seven{
+    background-color: darkorchid;
+}
+
+#eight{
+    background-color: hotpink;
+}
+
+#nine{
+    background-color: indigo;
+}
+
+#ten{
+    background-color: dodgerblue;
+}
+
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +214,78 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    width: 80%;
 }
+
+@media(max-width: 800px){
+
+
+header nav{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.top-content{
+    font-size: 1.2rem;
+    width:200%;
+    padding: 2%;
+    display:flex;
+    flex-direction: column;
+}
+.boxes .box{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.bottom-content .text-container{
+    width: 60%;
+    padding: 2%;
+  
+    
+}  
+footer nav a{
+    display:flex;
+    justify-content: center;
+}
+    
+}
+
+@media (max-width:500px){
+   header nav{
+       height:25%;
+       display:flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-content: center;
+   }
+    .top-content{
+        font-size: 1.2rem;
+        width:90%;
+        padding: 2%;
+        display:flex;
+        align-content: center;
+        flex-direction: column;
+    }
+    .boxes{
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        
+    }
+    .middle-content h2{
+        text-align: center;
+    }
+
+    }
+    .bottom-content .text-container{
+        font-size: 1.2rem;
+        width:90%;
+        padding: 4%;
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
